@@ -70,8 +70,12 @@ text-decoration: none;
   width: 40px;
 }
 
-/* Body */
-
+/* Body(tech-car is short for tech carousel) */ 
+.tech-car{
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.849);
+  text-align: center;
+}
 
 /* About */
 
