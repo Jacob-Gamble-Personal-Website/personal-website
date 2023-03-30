@@ -4,7 +4,6 @@
   }
 
   body {
-    font-family: dk_pundak;
     background-image: linear-gradient(to right, rgba(255, 140, 0, 1), rgba(0, 255, 0, 1));
     margin: 0;
     min-height: 100vh;
@@ -20,6 +19,11 @@
   font-family: dk_pundak;
   background-color: rgba(0, 0, 0, 0.849);
   padding: 10px;
+  border: outset rgba(73, 70, 66, 0.521);
+}
+
+.header a{
+text-decoration: none;
 }
 
 .name{
@@ -40,10 +44,16 @@
 }
 
 .topnav a{
-  color: rgb(238, 119, 21, 0.8);
-  text-shadow: 0px 0px 10px rgb(255, 140, 0, 0.5);
   animation: pulsingGlow 1s infinite;
   text-decoration: none;
+  background-image: linear-gradient(to right, #e4e71d, #7eff5e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0px 0px 10px rgba(238, 255, 0, 0.336);
+  border: #343833cc outset;
+  border-radius: 5px;
 }
 
 .socials{
@@ -60,35 +70,246 @@
   width: 40px;
 }
 
+/* Body */
+
+
 /* About */
+
+/*Header */
 .about-whoami{
-  color: rgb(238, 119, 21, 0.8);
-  text-shadow: 0px 0px 10px rgb(255, 140, 0, 0.5);
-  animation: pulsingGlow 1s infinite;
-  margin-left: 790px;
+  animation: pulsingGlow 3s infinite;
+  margin-left: 870px;
   Font-size: 40px;
+  background-image: linear-gradient(to right, #e4e71d, #7eff5e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0px 0px 10px rgba(238, 255, 0, 0.336);
+}
+
+/* Body */
+.aboutcont{
+  width: 100%;
+  text-align: center;
+  font-family: 'dk_pundak';
+}
+.aboutme{
+  height:20vh;
+  width: 100vw;
+  border: inset rgba(73, 70, 66, 0.521);
+  background-color: rgba(0, 0, 0, 0.849);
+  
+}
+
+.aboutme h2{
+  text-align: center;
+  background-image: linear-gradient(to right, #e4e71d, #7eff5e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  animation: pulsingGlow 3s infinite;
+} 
+
+.introtext{
+  background: linear-gradient(to right, #ff8800f1, #00ff00); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.skills, .goals {
+  width: 50%;
+  vertical-align: top;
+  float: left;
+  height: 60vh;
+  background-color: rgba(0, 0, 0, 0.849);
+}
+
+.skills h2{
+  background: linear-gradient(to right, #ff8800f1, #ffd000d8); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  border: inset rgba(73, 70, 66, 0.521);
+  animation: pulsingGlow 3s infinite;
+}
+
+.goals h2{
+  background: linear-gradient(to right, #ff8800f1, #00ff00); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  animation: pulsingGlow 3s infinite;
+  border: inset rgba(73, 70, 66, 0.521);
+}
+
+.skills dt{
+  font-size: 20px;
+  background: linear-gradient(to right, #ffae00f1, #66ff00f5); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  animation: pulsingGlow 3s infinite;
+}
+
+.skills dd{
+  background: linear-gradient(to right, #ff8800f1, #e5ff00e0); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.goals dt{
+  font-size: 20px;
+  background: linear-gradient(to right, #c8ff00f1, #66ff00f5); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  animation: pulsingGlow 3s infinite;
+}
+
+.goals dd{
+  background: linear-gradient(to right, #fffb00d0, #2bff00e0); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
 }
 
 /* Projects */
+
+/*Header */
 .projects{
+  margin-left: 640px;
+  Font-size: 40px;
+  background-image: linear-gradient(to right, #e4e71d, #7eff5e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0px 0px 10px rgba(238, 255, 0, 0.336);
+  
+}
+
+/* Body */
+.projs-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  font-family: 'dk_pundak';
+  margin: 10px;
+  background-color: rgba(0, 0, 0, 0.849);
+  border-color: rgba(73, 70, 66, 0.521);
+  border-radius: 5px;
+  border: inset rgba(73, 70, 66, 0.521);
+}
+
+
+.project1 h3{
   color: rgb(238, 119, 21, 0.8);
   text-shadow: 0px 0px 10px rgb(255, 140, 0, 0.5);
+  padding-left: 10px;
   animation: pulsingGlow 1s infinite;
-  margin-left: 790px;
-  Font-size: 40px;
+}
+
+.project1 p{
+  padding-left: 10px;
+  background: linear-gradient(to right, #ff8800f1, #ffd900ea); 
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.p1i{
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.project2 p{
+  background-image: linear-gradient(to right, #e4e71d, #7eff5e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  
 }
 
 
 
+.project2 h3{
+  background-image: linear-gradient(to right, #e4e71d, #7eff5e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  animation: pulsingGlow 1s infinite;
+}
 
 
 
+.project3 h3{
+  color: rgba(57, 238, 21, 0.8);
+  animation: pulsingGlow 1s infinite;
+}
+
+.project3 p{
+  color: rgba(57, 238, 21, 0.8);
+}
+
+.p1i, .p2i, .p3i{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
 
 
 
+/* footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'dk_pundak';
+  background-color: rgba(0, 0, 0, 0.849);
+  padding: 10px;
+  border: outset rgba(73, 70, 66, 0.521);
 
+}
 
+.copyright {
+  color: rgba(236, 138, 10, 0.8);
+  font-size: 14px;
+}
 
+.privacy-link{
+  text-decoration: none;
+  color: rgba(57, 238, 21, 0.8);
+}
 
 /* Animations */
 @keyframes pulsingGlow{
